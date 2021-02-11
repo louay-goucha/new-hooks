@@ -1,0 +1,103 @@
+header {
+  padding: 50px 15px 0px;
+}
+header h1 {
+  font-size: 48px;
+  font-weight: 500px;
+  text-align: center;
+
+}
+body {
+  background-color: grey;
+  display: flex;
+  justify-content: center;
+}
+
+
+.box{
+  margin-right: 20px;
+  margin-left: 10px;
+}
+.searchbox{
+  width: 500px;
+  height: 40px;
+  border-radius: 30px;
+  color: rgb(17, 16, 16);
+  transition: 0.4s ease-out;
+
+}
+.searchbox:hover{
+  background-color: black;
+}
+.image {
+  width: 500px;
+  height: 500px;
+  margin-top: 10px;
+}
+.card {
+  display: flex;
+  margin-top: 50px;
+}
+.btnn {
+  border: 1px solid #101213;
+  padding: 10px 20px;
+  font-family: "montserrat";
+  cursor: pointer;
+  margin: 10px;
+  height: 90px;
+  width: 90px;
+}
+.btnn:hover {
+  background-color: rgb(23, 23, 24);
+  
+}
+.container {
+  text-align: center;
+
+
+}
+.lougha {
+display: flex;
+flex-direction: column;
+width: 250px;
+text-align: center;
+margin-left: 600px;
+}
+.form{
+ display: flex;
+  flex-direction: column;
+}
+.cardright {
+  width: 60%;
+  float: left;
+  height: 400px;
+  border-radius: 0 10px 10px 0;
+  -webkit-border-radius: 0 10px 10px 0;
+  -moz-border-radius: 0 10px 10px 0;
+
+}
+.cardLeft {
+width: 40%;
+  height: 400px;
+  float: left;
+  overflow: hidden;
+  background: transparent;
+}
+
+
+.flex {
+  display: flex;
+  margin-left: 500px;
+}
+.movie {
+  text-align: center;
+  margin-left: 600px;
+}
+.start{
+  color: rgb(175, 175, 9);
+font-size: 30px;
+}
+.rating-search {
+  color: yellow;
+  font-size: 30px;
+}
